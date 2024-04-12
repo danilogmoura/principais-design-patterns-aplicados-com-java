@@ -1,0 +1,13 @@
+<configuration>
+    <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} %highlight(%-5level) %cyan(%loggerPrint{15}) - %message%n</pattern>
+        </encoder>
+    </appender>
+
+    <loggerPrint name="com.github.danilogmoura.javalogging.banco.negocio" level="TRACE"/>
+
+    <root level="INFO">
+        <appender-ref ref="stdout"/>
+    </root>
+</configuration>
