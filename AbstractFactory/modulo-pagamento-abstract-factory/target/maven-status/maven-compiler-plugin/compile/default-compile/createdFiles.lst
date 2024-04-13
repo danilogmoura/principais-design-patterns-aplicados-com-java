@@ -1,0 +1,7 @@
+com\github\danilogmoura\factory\gestorderisco\AlertaDeRiscoException.class
+com\github\danilogmoura\factory\gestorderisco\fcontrol\FControl.class
+com\github\danilogmoura\factory\operadora\Operadora.class
+com\github\danilogmoura\factory\operadora\CapturaNaoAutorizadaException.class
+com\github\danilogmoura\factory\pagamento\Pagamento.class
+com\github\danilogmoura\factory\operadora\cielo\Cielo.class
+com\github\danilogmoura\factory\gestorderisco\GestorDeRisco.class

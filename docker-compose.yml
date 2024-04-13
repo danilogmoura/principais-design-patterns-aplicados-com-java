@@ -7,7 +7,6 @@ services:
       - SONAR_HOST_URL=${SONARQUBE_URL}
       - SONAR_SCANNER_OPTS=-Dsonar.projectKey=${PROJECT_KEY} -Dsonar.java.binaries=${JAVA_BINARIES}
       - SONAR_TOKEN=${AUTHENTICATION_TOKEN}
-      - SONAR_JAVA_BINARIES=*\target
     volumes:
       - .:/usr/src
     networks:
