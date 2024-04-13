@@ -9,10 +9,9 @@ public class Venda {
 
     private final Boleta boleta;
 
-    public Venda() {
-        var lojaFactory = new LojaFactory();
-        notaFiscal = lojaFactory.criarNotaFiscal();
-        boleta = lojaFactory.criarBoleta();
+    public Venda(ModuloVendaFactory vendaFactory) {
+        notaFiscal = vendaFactory.criarNotaFiscal();
+        boleta = vendaFactory.criarBoleta();
     }
 
     public void realizar() {
