@@ -7,7 +7,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ContatosXMLTest {
 
-
     @Test
     void deveRetornarContato() {
         Contatos contatos = new ContatosProxyXML("contatos1.xml", "contatos2.xml");

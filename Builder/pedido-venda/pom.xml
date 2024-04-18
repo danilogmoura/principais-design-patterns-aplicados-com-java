@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.danilogmoura.builder</groupId>
-    <artifactId>pedido-venda</artifactId>
+    <artifactId>order-venda</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
